@@ -3,7 +3,6 @@ class FuelCalculator
     fuel_needed = (mod / 3.0).floor - 2
 
     return 0 if(fuel_needed <= 0)
-    
     fuel_needed + FuelCalculator.calculate(fuel_needed)
   end
 end
