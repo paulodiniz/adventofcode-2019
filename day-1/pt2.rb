@@ -1,5 +1,5 @@
 class FuelCalculator
-	def self.calculate(mod)
+  def self.calculate(mod)
     fuel_needed = (mod / 3.0).floor - 2
 
     return 0 if(fuel_needed <= 0)
